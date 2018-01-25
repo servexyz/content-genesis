@@ -3,7 +3,7 @@
  * @Date:   2018-01-24T16:32:34-08:00
  * @Email:  alec@bubblegum.academy
  * @Last modified by:   alechp
- * @Last modified time: 2018-01-25T11:33:09-08:00
+ * @Last modified time: 2018-01-25T13:04:32-08:00
  */
 const log = console.log;
 const path = require("path");
@@ -16,7 +16,7 @@ function Content(template, variables) {
 }
 
 Content.prototype.interpolate = fluent(function() {
-  let temp = templateStringGenerator(this.template);
+  let temp = this.templateStringGenerator(this.template);
   log(temp(this.variables));
 });
 

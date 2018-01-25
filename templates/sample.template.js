@@ -3,13 +3,14 @@
  * @Date:   2018-01-09T20:26:20-08:00
  * @Email:  alec@bubblegum.academy
  * @Last modified by:   alechp
- * @Last modified time: 2018-01-25T11:33:58-08:00
+ * @Last modified time: 2018-01-25T13:09:31-08:00
  */
 
-const SAMPLE_TEMPLATE = "
-  import React from 'react';
-  import PropTypes from 'prop-types';
-  export default class ${component} extends React.Component {
+const multiline = require("multiline");
+const SAMPLE_TEMPLATE = multiline(() => {/*
+import React from 'react';
+import PropTypes from 'prop-types';
+export default class ${component} extends React.Component {
     static defaultProps = {
       place: 'holder'
     }
@@ -29,8 +30,8 @@ const SAMPLE_TEMPLATE = "
         </div>
       )
     }
-  }
-";
+}
+*/});
 
 module.exports = {
   TEMPLATE: SAMPLE_TEMPLATE
