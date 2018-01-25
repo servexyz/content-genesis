@@ -3,7 +3,7 @@
  * @Date:   2018-01-24T16:16:02-08:00
  * @Email:  alec@bubblegum.academy
  * @Last modified by:   alechp
- * @Last modified time: 2018-01-24T16:38:10-08:00
+ * @Last modified time: 2018-01-25T11:21:32-08:00
  */
 
 /*
@@ -16,11 +16,11 @@
   interpolate()
  */
 
-const path = require("path");
-const Content = require(path.join(__dirname, "./src/content.js"));
-function init() {
-  const c = new Content("abcdefg");
-  c.tester().tester2();
-}
-
-module.exports = init;
+// const path = require("path");
+// const Content = require(path.join(__dirname, "./src/content.js"));
+// function init() {
+//   const c = new Content("abcdefg");
+//   c.tester().tester2();
+// }
+//
+// module.exports = init;
