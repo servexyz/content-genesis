@@ -1,0 +1,19 @@
+{
+  "name": "content-genesis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "jest": "^22.0.4"
+  },
+  "jest": {
+    "verbose": true,
+    "bail": false,
+    "collectCoverage": false,
+    "modulePathIgnorePatterns": ["sandbox", "node_modules"]
+  }
+}
