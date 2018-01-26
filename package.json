@@ -18,6 +18,9 @@
     "verbose": true,
     "bail": false,
     "collectCoverage": false,
-    "modulePathIgnorePatterns": ["sandbox", "node_modules"]
+    "modulePathIgnorePatterns": [
+      "sandbox",
+      "node_modules"
+    ]
   }
 }
