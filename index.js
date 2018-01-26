@@ -3,24 +3,13 @@
  * @Date:   2018-01-24T16:16:02-08:00
  * @Email:  alec@bubblegum.academy
  * @Last modified by:   alechp
- * @Last modified time: 2018-01-25T11:21:32-08:00
+ * @Last modified time: 2018-01-26T14:42:58-08:00
  */
 
-/*
-  -----------------
-  Pseudo procedural
-  -----------------
-  parse() -> grab original template
-  whitespaceSave() -> preserve original whitespace
-  whitespaceStrip() -> strip all whitespace (ie. partial-uglify)
-  interpolate()
- */
+const { sanitize, interpolate } = require("./src/content.js");
 
-// const path = require("path");
-// const Content = require(path.join(__dirname, "./src/content.js"));
-// function init() {
-//   const c = new Content("abcdefg");
-//   c.tester().tester2();
-// }
-//
-// module.exports = init;
+function template(path, variables) {
+  let sanitizedTemplate = sanitize(path);
+  return interpolate(sanitizedTemplate, variables);
+}
+module.exports = { template };

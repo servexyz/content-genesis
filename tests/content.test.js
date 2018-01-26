@@ -3,7 +3,7 @@
  * @Date:   2018-01-24T16:36:38-08:00
  * @Email:  alec@bubblegum.academy
  * @Last modified by:   alechp
- * @Last modified time: 2018-01-26T14:30:01-08:00
+ * @Last modified time: 2018-01-26T14:43:14-08:00
  */
 const path = require("path");
 const chalk = require("chalk");
@@ -46,12 +46,11 @@ test("sanitize and interpolate functions produce template string", () => {
   const { sanitize, interpolate } = require("../src/content.js");
   let sanitizedTemplate = sanitize(TEMPLATE);
   let fooInterpolated = interpolate(sanitizedTemplate, foo);
-  log(`fooInterpolated: \n ${fooInterpolated}`);
   expect(fooInterpolated).toBe(expectedFoo);
 });
 
 test("composed template function produce template string", () => {
-  const { template } = require("../src/content.js"); //template refers to the function
+  const { template } = require("../index.js"); //template refers to the function
   let fooTemplate = template(TEMPLATE, foo); //TEMPLATE refers to the path
   expect(fooTemplate).toBe(expectedFoo);
 });
