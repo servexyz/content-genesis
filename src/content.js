@@ -3,12 +3,11 @@
  * @Date:   2018-01-24T16:32:34-08:00
  * @Email:  alec@bubblegum.academy
  * @Last modified by:   alechp
- * @Last modified time: 2018-01-26T14:23:27-08:00
+ * @Last modified time: 2018-01-26T14:24:30-08:00
  */
 const log = console.log;
 const path = require("path");
 const chalk = require("chalk");
-const empty = require("is-empty");
 const prettier = require("prettier");
 //regex shoutout to stackoverflow
 let sanitize = multiline => {

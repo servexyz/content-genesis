@@ -3,11 +3,10 @@
  * @Date:   2018-01-24T16:36:38-08:00
  * @Email:  alec@bubblegum.academy
  * @Last modified by:   alechp
- * @Last modified time: 2018-01-26T14:20:05-08:00
+ * @Last modified time: 2018-01-26T14:23:49-08:00
  */
 const path = require("path");
 const chalk = require("chalk");
-const fs = require("fs-extra");
 const prettier = require("prettier");
 const log = console.log;
 
