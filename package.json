@@ -3,6 +3,7 @@
   "description": "generate interpolated content from template files",
   "version": "0.5.0",
   "main": "index.js",
+  "repository": "https://github.com/servexyz/content-genesis",
   "license": "MIT",
   "scripts": {
     "test": "jest"
