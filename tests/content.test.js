@@ -3,7 +3,7 @@
  * @Date:   2018-01-24T16:36:38-08:00
  * @Email:  alec@bubblegum.academy
  * @Last modified by:   alechp
- * @Last modified time: 2018-01-26T14:23:49-08:00
+ * @Last modified time: 2018-01-26T14:30:01-08:00
  */
 const path = require("path");
 const chalk = require("chalk");
@@ -17,6 +17,7 @@ const { TEMPLATE } = require(path.join(
 
 let foo = { component: "Foo" };
 
+//TODO: Consider reading this from templates/sample.template.js and running it through prettier instead
 let expectedFooUgly = `
  import React from \"react\";
  import PropTypes from "prop-types";
