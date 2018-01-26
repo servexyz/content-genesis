@@ -3,7 +3,7 @@
  * @Date:   2018-01-24T16:32:34-08:00
  * @Email:  alec@bubblegum.academy
  * @Last modified by:   alechp
- * @Last modified time: 2018-01-26T14:12:21-08:00
+ * @Last modified time: 2018-01-26T14:23:27-08:00
  */
 const log = console.log;
 const path = require("path");
@@ -28,11 +28,9 @@ let interpolate = (templateStringGeneratorFunction, variables) => {
   return prettier.format(uglyInterpolated);
 };
 
-function template(path) {
-  let sanitized = sanitize(path);
-  return variables => {
-    return interpolate(sanitized, variables);
-  };
+function template(path, variables) {
+  let sanitizedTemplate = sanitize(path);
+  return interpolate(sanitizedTemplate, variables);
 }
 
 module.exports = {
