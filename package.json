@@ -12,7 +12,9 @@
     "multiline": "^1.0.2"
   },
   "devDependencies": {
-    "jest": "^22.0.4"
+    "fs-extra": "^5.0.0",
+    "jest": "^22.0.4",
+    "prettier": "^1.10.2"
   },
   "jest": {
     "verbose": true,
