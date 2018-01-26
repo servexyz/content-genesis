@@ -3,7 +3,7 @@
  * @Date:   2018-01-02T09:34:17-08:00
  * @Email:  alec@bubblegum.academy
  * @Last modified by:   alechp
- * @Last modified time: 2018-01-24T11:03:41-08:00
+ * @Last modified time: 2018-01-25T16:33:54-08:00
  */
 
 const fs = require("fs-extra");
@@ -45,9 +45,9 @@ var generateTemplateString = (function() {
   return generateTemplate;
 })();
 
-module.exports = {
-  generateTemplateString
-};
+// module.exports = {
+// generateTemplateString
+// };
 // function duplicate(templateSource) {
 //   let destination = `${paths.C_TEMPLATES_DUPLICATES}/${templateSource}`;
 //   fs

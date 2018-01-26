@@ -8,12 +8,20 @@
   },
   "dependencies": {
     "chalk": "^2.3.0",
+    "is-empty": "^1.2.0",
+    "multiline": "^1.0.2"
+  },
+  "devDependencies": {
     "jest": "^22.0.4"
   },
   "jest": {
     "verbose": true,
     "bail": false,
     "collectCoverage": false,
-    "modulePathIgnorePatterns": ["sandbox", "node_modules"]
+    "modulePathIgnorePatterns": [
+      "sandbox",
+      "node_modules",
+      "old-reference"
+    ]
   }
 }
