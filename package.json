@@ -8,11 +8,11 @@
   },
   "dependencies": {
     "chalk": "^2.3.0",
-    "is-empty": "^1.2.0",
     "multiline": "^1.0.2"
   },
   "devDependencies": {
-    "jest": "^22.0.4"
+    "jest": "^22.0.4",
+    "prettier": "^1.10.2"
   },
   "jest": {
     "verbose": true,
@@ -20,8 +20,7 @@
     "collectCoverage": false,
     "modulePathIgnorePatterns": [
       "sandbox",
-      "node_modules",
-      "old-reference"
+      "node_modules"
     ]
   }
 }
