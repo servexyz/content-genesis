@@ -4,14 +4,14 @@
 
 ## Install
 
-```
+```bash
 yarn add content-genesis
-const { template } = require('content-genesis');
 ```
 
 ## Use
 
 ```js
+const { template } = require("content-genesis");
 let foo = { variable1: "Foo", variable2: "Bar" };
 let fooTemplate = template("/path/to/template", foo);
 ```
