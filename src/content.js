@@ -3,7 +3,7 @@
  * @Date:   2018-01-24T16:32:34-08:00
  * @Email:  alec@bubblegum.academy
  * @Last modified by:   alechp
- * @Last modified time: 2018-01-26T14:42:12-08:00
+ * @Last modified time: 2018-01-26T16:32:27-08:00
  */
 const log = console.log;
 const path = require("path");
