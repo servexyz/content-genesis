@@ -1,7 +1,7 @@
 {
   "name": "content-genesis",
   "description": "generate interpolated content from template files",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "main": "index.js",
   "repository": "https://github.com/servexyz/content-genesis",
   "license": "MIT",
