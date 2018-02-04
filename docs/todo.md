@@ -6,9 +6,9 @@
 * [x] whitespace
 * [x] interpolate
 * [x] Consider running content through prettier (to ensure that spacing is normalized)
+* [x] Add error handling
 
-## v1.0
+## v0.6
 
-* [ ] Add explanation about multiline() for template strings
-* [ ] Make multiline decorator for templates
-* [ ] Add error handling
+* [ ] Consider lightweight alternative to prettier (7mb~)
+* [ ] Add webpack 4.0
