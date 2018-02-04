@@ -27,4 +27,4 @@ let fooTemplate = template("/path/to/template", foo);
 
 ## Related
 
-* [file-genesis](https://github.com/servexyz/file-genesis)
+* `file-genesis` [@github](https://github.com/servexyz/file-genesis) | [@npm](https://www.npmjs.com/package/file-genesis)
