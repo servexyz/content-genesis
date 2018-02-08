@@ -12,3 +12,5 @@
 
 * [ ] Consider lightweight alternative to prettier (7mb~)
 * [ ] Add webpack 4.0
+* [ ] Consider Updating {template} to {Content}
+* [ ] Consider updating disparate composed functions into factory function
