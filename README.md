@@ -28,3 +28,4 @@ let fooTemplate = template("/path/to/template", foo);
 ## Related
 
 * `file-genesis` [@github](https://github.com/servexyz/file-genesis) | [@npm](https://www.npmjs.com/package/file-genesis)
+* `library-genesis` [@github](https://github.com/servexyz/library-genesis) | [@npm](https://www.npmjs.com/package/library-genesis)
