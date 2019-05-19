@@ -1,4 +1,4 @@
-# Content Genesis
+![logo](docs/logo/content-genesis@2x.png)
 
 [![Build Status](https://travis-ci.org/servexyz/content-genesis.svg?branch=master)](https://travis-ci.org/servexyz/content-genesis)
 
